@@ -18,7 +18,7 @@ public class Hello {
 		 }
 		}
 		catch (InputMismatchException e) {
-			System.out.println("Invalid Input");
+			System.out.println("Output : Invalid Input");
 		}
 	}
 
