@@ -19,9 +19,13 @@ public class Vowel {
 		{
 			System.out.println("Output : vowels");
 		}
-		else
+		else if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
 		{
 			System.out.println("Output : consonants");
+		}
+		else
+		{
+			System.out.println("Output : Invalid");
 		}
 		
 	}
