@@ -1,3 +1,5 @@
+package com.pack;
+
 import java.util.Scanner;
 
 public class Vowel {
@@ -10,16 +12,16 @@ public class Vowel {
 
 		char ch;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter A Character:");
+		System.out.println("Input : ");
 		
 		ch=sc.next().charAt(0);
 		if((ch=='a')||(ch=='a')||(ch=='E')||(ch=='e')||(ch=='I')||(ch=='i')||(ch=='O')||(ch=='o')||(ch=='U')||(ch=='u'))
 		{
-			System.out.println("vowels");
+			System.out.println("Output : vowels");
 		}
 		else
 		{
-			System.out.println("consonants");
+			System.out.println("Output : consonants");
 		}
 		
 	}
