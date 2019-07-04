@@ -15,13 +15,13 @@ public class Vowel {
 		System.out.print("Input : ");
 		
 		ch=sc.next().charAt(0);
-		if((ch=='a')||(ch=='a')||(ch=='E')||(ch=='e')||(ch=='I')||(ch=='i')||(ch=='O')||(ch=='o')||(ch=='U')||(ch=='u'))
+		if((ch=='a')||(ch=='A')||(ch=='E')||(ch=='e')||(ch=='I')||(ch=='i')||(ch=='O')||(ch=='o')||(ch=='U')||(ch=='u'))
 		{
-			System.out.println("Output : vowels");
+			System.out.println("Output : vowel");
 		}
 		else if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
 		{
-			System.out.println("Output : consonants");
+			System.out.println("Output : Consonant");
 		}
 		else
 		{
