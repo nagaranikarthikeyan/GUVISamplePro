@@ -12,7 +12,7 @@ public class Vowel {
 
 		char ch;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Input : ");
+		System.out.print("Input : ");
 		
 		ch=sc.next().charAt(0);
 		if((ch=='a')||(ch=='a')||(ch=='E')||(ch=='e')||(ch=='I')||(ch=='i')||(ch=='O')||(ch=='o')||(ch=='U')||(ch=='u'))
